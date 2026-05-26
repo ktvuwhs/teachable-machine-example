@@ -38,3 +38,16 @@
 .game-overlay {
     z-index: 10;
 }
+
+/* Newly Added Rules for Image Banner Alignment */
+.logo-banner-container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.school-banner-img {
+    max-height: 120px; /* Restricts vertical bloating */
+    max-width: 100%;   /* Ensures fluid responsiveness on mobile */
+    height: auto;
+    object-fit: contain;
+}
