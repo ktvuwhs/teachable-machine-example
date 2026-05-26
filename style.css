@@ -1,0 +1,40 @@
+/* Color Palette & Custom School Branding Rules */
+.main-header {
+    background-color: #1a1a1a; 
+    border-bottom: 4px solid #bf1e2e;
+}
+
+.shadow-wrapper {
+    max-width: 750px;
+}
+
+.upload-dashbox {
+    border-style: dashed !important;
+}
+
+#btn-start {
+    background-color: #bf1e2e;
+}
+
+#btn-start:hover {
+    background-color: #9c1522;
+}
+
+#btn-stop {
+    background-color: #1a1a1a;
+}
+
+.webcam-frame {
+    width: 206px; 
+    height: 206px; 
+    overflow: hidden;
+}
+
+.game-surface {
+    max-width: 100%;
+    image-rendering: pixelated; /* Crisp rendering for pixel structures */
+}
+
+.game-overlay {
+    z-index: 10;
+}
